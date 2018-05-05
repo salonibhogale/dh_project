@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <meta http-equiv="pragma" content="no-cache" />
+    <title>Mapping Delhi</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
+    <script src='dh_template.js'></script>
+    <link href='dh_template.css' rel='stylesheet' />
+</head>
+<body>
+
+
+
+<!-- DO NOT TOUCH!-->
+<div id='map'></div>
+
+<!-- INFOBOX - Comment out to delete -->
+<div class='map-overlay' id='infobox'><h3>Infobox</h3><div id='pd'><p>Hover over a point </p>  </div></div>
+
+<!-- LEGEND - Comment out to delete -->
+<div class='map-overlay' id='legend'><h3>Legend</h3></div>
+
+<!-- TOGGLE MENU - Comment out to delete -->
+<nav id="menu"></nav>
+
+
+<!--TIMELINE SLIDER - Comment out to delete -->
+<div id='console'>
+  <h3>Timeline for Dates</h3>
+  <p>add some more text here</p>
+  <div class='session1' id='sliderbar'>
+  <h5>Year: <label id='active-hour'>1526</label></h5>
+  <input id='slider2' class='row' type='range' min='1500' max='2017' step='1' value='1500' />
+</div>
+</div>
+<!--END TIMELINE SLIDER: DO NOT COMMENT BEYOND THIS POINT-->
+
+
+<!--OPACITY SLIDER - COMMENT OUT TO DELETE-->
+<div class='map-overlay2 top'>
+    <div class='map-overlay-inner'>
+        <label><h3>Layer opacity: <span id='slider-value'>100%</span></h3></label>
+        <input id='slider1' type='range' min='0' max='100' step='0' value='100' />
+    </div>
+</div>
+<!--OPACITY SLIDER END: DO NOT COMMENT BEYOND THIS POINT-->
+
+
+<!--SLIDESHOW - DO NOT COMMENT OUT-->
+<!--This is where you add all your text-->
+<div id='features'>
+    <section id='part-1' class='active'>
+        <h3>Thick Mapping: Cities Improbable</h3>
+        <p>Places seen in 5 stories of City Improbable </p>
+      </section>
+        <section id='part-2'>
+            <h3>View 1</h3>
+
+            <p>Description of View 1</p>
+        </section>
+        <section id='part-3'>
+            <h3>Hi I'm here</h3>
+
+            <p>This is where you write your text. You can write as much as you want.
+            the scroll bar should show up so users can read all of the glorious text you wrote.
+          you might want to write all of your text in word and then copy past it into the appropriate slide. To make the point
+          about the scroll bar. This will repeat. This will repeat.This will repeat.This will repeat.This will repeat.
+          This will repeat.This will repeat.This will repeat.This will repeat.This will repeat.This will repeat.
+          This will repeat.This will repeat.This will repeat.This will repeat.This will repeat.
+          This will repeat.This will repeat.This will repeat.This will repeat.This will repeat.This will repeat.
+          This will repeat.This will repeat.This will repeat.This will repeat.This will repeat.This will repeat.
+          This will repeat.This will repeat.This will repeat.This will repeat.This will repeat.This will repeat.
+          This will repeat.This will repeat.This will repeat.This will repeat.This will repeat.This will repeat.
+          This will repeat.This will repeat.This will repeat.This will repeat.This will repeat.This will repeat.
+          This will repeat.This will repeat.This will repeat.This will repeat.This will repeat.This will repeat.This will repeat.
+          This will repeat.This will repeat.This will repeat.This will repeat.This will repeat.
+        </p>
+        </section>
+        <section id='part-4'>
+            <h3>View 3</h3>
+
+            <p>Description of View 3</p>
+            <img src="http://m.memegen.com/h2p1vx.jpg" width=95%>
+        </section>
+        <section id='part-5'>
+            <h3>View 4</h3>
+
+            <p>Description of View 4</p>
+        </section>
+        <section id='part-6'>
+            <h3>Conclusion</h3>
+
+            <p>Description of conclusion</p>
+        </section>
+        <section id='part-7'>
+            <h3>The End</h3>
+    </section>
+</div>
+
+</body>
+</html>
